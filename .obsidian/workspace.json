@@ -11,10 +11,10 @@
             "id": "addca2930d1b4c8d",
             "type": "leaf",
             "state": {
-              "type": "empty",
+              "type": "graph",
               "state": {},
-              "icon": "lucide-file",
-              "title": "New tab"
+              "icon": "lucide-git-fork",
+              "title": "Graph view"
             }
           }
         ]
@@ -167,12 +167,13 @@
   },
   "active": "addca2930d1b4c8d",
   "lastOpenFiles": [
+    "Welcome.md",
+    "README.md",
     "SQL_Best_Practices.md",
     "Window_Functions_Guide.md",
     "JOINS_Guide.md",
     "CTE_Guide.md",
     "SELECT_Complete_Guide.md",
-    "SQL_Master_Guide.md",
-    "Welcome.md"
+    "SQL_Master_Guide.md"
   ]
 }
