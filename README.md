@@ -24,23 +24,16 @@ A comprehensive, interconnected MySQL knowledge base designed for learners at al
 
 This knowledge base covers everything you need to master MySQL:
 
-### 🎯 Core Topics
+### 🎯 Core Topics (In Learning Order)
 
-1. **[SELECT - Complete Guide](SELECT_Complete_Guide.md)**
+1. **[01. SELECT - Complete Guide](guides/01_SELECT_Complete_Guide.md)** ⭐ START HERE
    - Every possible SELECT syntax and combination
    - WHERE, ORDER BY, LIMIT, GROUP BY, HAVING
    - Aggregation functions (COUNT, SUM, AVG, MIN, MAX)
    - Subqueries and CASE expressions
    - Common mistakes and how to avoid them
 
-2. **[Common Table Expressions (CTEs)](CTE_Guide.md)**
-   - What CTEs are and when to use them
-   - Simple CTEs for code readability
-   - Recursive CTEs for hierarchical data
-   - Performance considerations
-   - CTEs vs Subqueries vs Temp Tables
-
-3. **[SQL JOINs Masterclass](JOINS_Guide.md)**
+2. **[02. SQL JOINs Masterclass](guides/02_JOINS_Guide.md)** 🔗 MOST IMPORTANT
    - INNER JOIN - matching records only
    - LEFT JOIN - keep all left-side records  
    - RIGHT JOIN - keep all right-side records
@@ -48,14 +41,21 @@ This knowledge base covers everything you need to master MySQL:
    - Visual diagrams and real-world examples
    - Common JOIN mistakes and anti-patterns
 
-4. **[Window Functions & PARTITION BY](Window_Functions_Guide.md)**
+3. **[03. Common Table Expressions (CTEs)](guides/03_CTE_Guide.md)** 📝 ORGANIZE COMPLEX QUERIES
+   - What CTEs are and when to use them
+   - Simple CTEs for code readability
+   - Recursive CTEs for hierarchical data
+   - Performance considerations
+   - CTEs vs Subqueries vs Temp Tables
+
+4. **[04. Window Functions & PARTITION BY](guides/04_Window_Functions_Guide.md)** 📊 ANALYTICS POWERHOUSE
    - Complete PARTITION BY explanation
    - ROW_NUMBER, RANK, DENSE_RANK - when to use each
    - LAG, LEAD, and other window functions
    - ROWS and RANGE frame specifications
    - Advanced analytics examples
 
-5. **[Best Practices & Anti-Patterns](SQL_Best_Practices.md)**
+5. **[05. Best Practices & Anti-Patterns](guides/05_SQL_Best_Practices.md)** ⚡ WRITE LIKE A PRO
    - Writing readable, maintainable queries
    - Performance optimization techniques
    - Security best practices (SQL injection prevention)
@@ -72,42 +72,42 @@ This knowledge base covers everything you need to master MySQL:
 **Absolute Beginner (Week 1-2):**
 Start here if you've never written SQL before!
 
-1. **Day 1-3:** [SELECT Basics](SELECT_Complete_Guide.md#Basic-SELECT-Syntax) - Learn to read data
+1. **Day 1-3:** [01. SELECT Basics](guides/01_SELECT_Complete_Guide.md#Basic-SELECT-Syntax) - Learn to read data
    - Think of it like searching through a phone book or spreadsheet
    - You'll write your first query in 5 minutes!
    
-2. **Day 4-7:** [Filtering with WHERE](SELECT_Complete_Guide.md#WHERE-Clause-Filtering-Data) - Find specific data
+2. **Day 4-7:** [Filtering with WHERE](guides/01_SELECT_Complete_Guide.md#WHERE-Clause-Filtering-Data) - Find specific data
    - Like using the "Find" feature in a document
    - Learn to find exactly what you need
 
-3. **Week 2:** [Sorting and Limiting](SELECT_Complete_Guide.md#ORDER-BY-Sorting-Results) - Organize your results
+3. **Week 2:** [Sorting and Limiting](guides/01_SELECT_Complete_Guide.md#ORDER-BY-Sorting-Results) - Organize your results
    - Like sorting emails by date
    - Get the "top 10" of anything
 
 **Confident Beginner (Week 3-4):**
 Ready to combine information from multiple places!
 
-1. [INNER JOIN](JOINS_Guide.md#INNER-JOIN) - Connect related tables
+1. [02. INNER JOIN](guides/02_JOINS_Guide.md#INNER-JOIN) - Connect related tables
    - Like matching customers with their orders
    - The most important skill in SQL!
    
-2. [Aggregation Functions](SELECT_Complete_Guide.md#Aggregation-Functions) - Count, sum, and average
+2. [Aggregation Functions](guides/01_SELECT_Complete_Guide.md#Aggregation-Functions) - Count, sum, and average
    - Calculate totals, find averages
    - Create summary reports
 
 **Intermediate (Month 2):**
 Level up with advanced techniques!
 
-1. [Common Table Expressions](CTE_Guide.md) - Break complex queries into steps
-2. [LEFT JOIN Patterns](JOINS_Guide.md#LEFT-JOIN-LEFT-OUTER-JOIN) - Find missing data
-3. [Basic Window Functions](Window_Functions_Guide.md#Basic-Window-Functions) - Rankings and running totals
+1. [03. Common Table Expressions](guides/03_CTE_Guide.md) - Break complex queries into steps
+2. [02. LEFT JOIN Patterns](guides/02_JOINS_Guide.md#LEFT-JOIN-LEFT-OUTER-JOIN) - Find missing data
+3. [04. Basic Window Functions](guides/04_Window_Functions_Guide.md#Basic-Window-Functions) - Rankings and running totals
 
 **Advanced (Month 3+):**
 Master professional-level SQL!
 
-1. [PARTITION BY Deep Dive](Window_Functions_Guide.md#Understanding-PARTITION-BY) - Advanced analytics
-2. [Recursive CTEs](CTE_Guide.md#Recursive-CTEs) - Hierarchical data
-3. [Performance Optimization](SQL_Best_Practices.md#Performance-Optimization) - Write fast queries
+1. [04. PARTITION BY Deep Dive](guides/04_Window_Functions_Guide.md#Understanding-PARTITION-BY) - Advanced analytics
+2. [03. Recursive CTEs](guides/03_CTE_Guide.md#Recursive-CTEs) - Hierarchical data
+3. [05. Performance Optimization](guides/05_SQL_Best_Practices.md#Performance-Optimization) - Write fast queries
 
 ### 📚 Quick Reference
 Already know SQL? Start with **[SQL_Master_Guide.md](SQL_Master_Guide.md)** - your navigation hub with links to all topics.
@@ -159,33 +159,37 @@ Unlike typical SQL tutorials that just show syntax, we explain:
 ## 📖 Table of Contents
 
 ### Core Guides
-- [SQL Master Guide](SQL_Master_Guide.md) - Start here!
-- [SELECT - Complete Guide](SELECT_Complete_Guide.md)
-- [Common Table Expressions (CTEs)](CTE_Guide.md)
-- [SQL JOINs Masterclass](JOINS_Guide.md)
-- [Window Functions & PARTITION BY](Window_Functions_Guide.md)
-- [Best Practices & Anti-Patterns](SQL_Best_Practices.md)
+- [SQL Master Guide](SQL_Master_Guide.md) - Navigation hub & overview
+- [01. SELECT - Complete Guide](guides/01_SELECT_Complete_Guide.md) - ⭐ Start here!
+- [02. SQL JOINs Masterclass](guides/02_JOINS_Guide.md) - Combine tables
+- [03. Common Table Expressions (CTEs)](guides/03_CTE_Guide.md) - Organize queries
+- [04. Window Functions & PARTITION BY](guides/04_Window_Functions_Guide.md) - Advanced analytics
+- [05. Best Practices & Anti-Patterns](guides/05_SQL_Best_Practices.md) - Professional code
 
 ### Quick Reference Topics
 
-#### SELECT Queries
-- [WHERE Clause](SELECT_Complete_Guide.md#WHERE-Clause-Filtering-Data)
-- [ORDER BY](SELECT_Complete_Guide.md#ORDER-BY-Sorting-Results)
-- [LIMIT and OFFSET](SELECT_Complete_Guide.md#LIMIT-and-OFFSET-Pagination)
-- [GROUP BY and HAVING](SELECT_Complete_Guide.md#GROUP-BY-and-HAVING)
-- [Subqueries](SELECT_Complete_Guide.md#Subqueries)
+#### SELECT Queries (Guide 01)
+- [WHERE Clause](guides/01_SELECT_Complete_Guide.md#WHERE-Clause-Filtering-Data)
+- [ORDER BY](guides/01_SELECT_Complete_Guide.md#ORDER-BY-Sorting-Results)
+- [LIMIT and OFFSET](guides/01_SELECT_Complete_Guide.md#LIMIT-and-OFFSET-Pagination)
+- [GROUP BY and HAVING](guides/01_SELECT_Complete_Guide.md#GROUP-BY-and-HAVING)
+- [Subqueries](guides/01_SELECT_Complete_Guide.md#Subqueries)
+
+#### JOINs (Guide 02)
+- [INNER JOIN](guides/02_JOINS_Guide.md#INNER-JOIN)
+- [LEFT JOIN](guides/02_JOINS_Guide.md#LEFT-JOIN-LEFT-OUTER-JOIN)
+- [JOIN Visual Guide](guides/02_JOINS_Guide.md#Visual-Guide)
 
 #### Advanced Concepts
-- [When to Use CTEs](CTE_Guide.md#When-to-Use-CTEs)
-- [Recursive CTEs](CTE_Guide.md#Recursive-CTEs)
-- [JOIN Types Comparison](JOINS_Guide.md#Comparison-ROW-NUMBER-vs-RANK-vs-DENSE-RANK)
-- [RANK vs DENSE_RANK vs ROW_NUMBER](Window_Functions_Guide.md#Comparison-ROW-NUMBER-vs-RANK-vs-DENSE-RANK)
+- [When to Use CTEs](guides/03_CTE_Guide.md#When-to-Use-CTEs) (Guide 03)
+- [Recursive CTEs](guides/03_CTE_Guide.md#Recursive-CTEs) (Guide 03)
+- [RANK vs DENSE_RANK vs ROW_NUMBER](guides/04_Window_Functions_Guide.md#Comparison-ROW-NUMBER-vs-RANK-vs-DENSE-RANK) (Guide 04)
 
-#### Performance & Optimization
-- [Indexing Guidelines](SQL_Best_Practices.md#Indexing-Guidelines)
-- [Query Optimization](SQL_Best_Practices.md#Query-Optimization-Techniques)
-- [Troubleshooting Slow Queries](SQL_Best_Practices.md#Troubleshooting-Slow-Queries)
-- [Common Anti-Patterns](SQL_Best_Practices.md#Common-Anti-Patterns)
+#### Performance & Optimization (Guide 05)
+- [Indexing Guidelines](guides/05_SQL_Best_Practices.md#Indexing-Guidelines)
+- [Query Optimization](guides/05_SQL_Best_Practices.md#Query-Optimization-Techniques)
+- [Troubleshooting Slow Queries](guides/05_SQL_Best_Practices.md#Troubleshooting-Slow-Queries)
+- [Common Anti-Patterns](guides/05_SQL_Best_Practices.md#Common-Anti-Patterns)
 
 ---
 
@@ -267,19 +271,19 @@ After **1 month**, you'll be able to:
 ## 💡 Example Use Cases
 
 ### Scenario 1: "How do I rank items within groups?"
-→ [Window Functions Guide - PARTITION BY](Window_Functions_Guide.md#Understanding-PARTITION-BY)
+→ [04. Window Functions Guide - PARTITION BY](guides/04_Window_Functions_Guide.md#Understanding-PARTITION-BY)
 
 ### Scenario 2: "My query is slow. How do I optimize it?"
-→ [Best Practices - Performance Optimization](SQL_Best_Practices.md#Performance-Optimization)
+→ [05. Best Practices - Performance Optimization](guides/05_SQL_Best_Practices.md#Performance-Optimization)
 
 ### Scenario 3: "When should I use CTE vs subquery?"
-→ [CTE Guide - CTEs vs Subqueries](CTE_Guide.md#CTEs-vs-Subqueries-vs-Temp-Tables)
+→ [03. CTE Guide - CTEs vs Subqueries](guides/03_CTE_Guide.md#CTEs-vs-Subqueries-vs-Temp-Tables)
 
 ### Scenario 4: "What's the difference between INNER and LEFT JOIN?"
-→ [JOINs Guide - Visual Comparison](JOINS_Guide.md#Visual-Guide)
+→ [02. JOINs Guide - Visual Comparison](guides/02_JOINS_Guide.md#Visual-Guide)
 
 ### Scenario 5: "How do I prevent SQL injection?"
-→ [Best Practices - Security](SQL_Best_Practices.md#Security-Best-Practices)
+→ [05. Best Practices - Security](guides/05_SQL_Best_Practices.md#Security-Best-Practices)
 
 ---
 
@@ -348,14 +352,14 @@ Have questions or suggestions? Feel free to open an issue or reach out!
 
 ## 🗺️ Navigation Quick Links
 
-| Guide | Description | Best For |
-|-------|-------------|----------|
-| [Master Guide](SQL_Master_Guide.md) | Navigation hub | Starting point |
-| [SELECT Guide](SELECT_Complete_Guide.md) | Query fundamentals | Beginners |
-| [CTE Guide](CTE_Guide.md) | Code organization | Intermediate |
-| [JOINs Guide](JOINS_Guide.md) | Combining tables | All levels |
-| [Window Functions](Window_Functions_Guide.md) | Advanced analytics | Advanced |
-| [Best Practices](SQL_Best_Practices.md) | Production code | All levels |
+| # | Guide | Description | Best For |
+|---|-------|-------------|----------|
+| 🗺️ | [Master Guide](SQL_Master_Guide.md) | Navigation hub | Starting point |
+| 01 | [SELECT Guide](guides/01_SELECT_Complete_Guide.md) | Query fundamentals | Beginners |
+| 02 | [JOINs Guide](guides/02_JOINS_Guide.md) | Combining tables | All levels |
+| 03 | [CTE Guide](guides/03_CTE_Guide.md) | Code organization | Intermediate |
+| 04 | [Window Functions](guides/04_Window_Functions_Guide.md) | Advanced analytics | Advanced |
+| 05 | [Best Practices](guides/05_SQL_Best_Practices.md) | Production code | All levels |
 
 ---
 

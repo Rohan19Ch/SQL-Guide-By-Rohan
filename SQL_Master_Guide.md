@@ -18,30 +18,30 @@
 
 This interconnected guide is designed to take you from complete beginner to proficient in MySQL queries. Each topic builds on the previous ones, so follow the learning path below!
 
-### 📚 Core Concepts
+### 📚 Core Concepts (In Learning Order)
 
-1. **[[SELECT_Complete_Guide|SELECT - The Foundation]]**
+1. **[[guides/01_SELECT_Complete_Guide|01. SELECT - The Foundation]]**
    - Every possible SELECT syntax combination
    - Filtering, sorting, grouping, and aggregation
    - Subqueries and derived tables
 
-2. **[[CTE_Guide|Common Table Expressions (WITH CTE)]]**
-   - What are CTEs and when to use them
-   - Simple vs Recursive CTEs
-   - Performance considerations
-
-3. **[[JOINS_Guide|SQL JOINS Masterclass]]**
+2. **[[guides/02_JOINS_Guide|02. SQL JOINS Masterclass]]**
    - INNER JOIN - Finding matching records
    - LEFT JOIN - Keeping all left-side records
    - RIGHT JOIN - Keeping all right-side records
    - Visual diagrams and practical examples
 
-4. **[[Window_Functions_Guide|Window Functions & PARTITION BY]]**
+3. **[[guides/03_CTE_Guide|03. Common Table Expressions (WITH CTE)]]**
+   - What are CTEs and when to use them
+   - Simple vs Recursive CTEs
+   - Performance considerations
+
+4. **[[guides/04_Window_Functions_Guide|04. Window Functions & PARTITION BY]]**
    - RANK, DENSE_RANK, ROW_NUMBER explained
    - PARTITION BY in detail
    - Real-world use cases
 
-5. **[[SQL_Best_Practices|Best Practices & Anti-Patterns]]**
+5. **[[guides/05_SQL_Best_Practices|05. Best Practices & Anti-Patterns]]**
    - How to write efficient queries
    - Common mistakes to avoid
    - Performance optimization tips
@@ -52,10 +52,10 @@ This interconnected guide is designed to take you from complete beginner to prof
 
 ### When to Use What?
 
-- **Need to filter rows?** → See [[SELECT_Complete_Guide#WHERE Clause|WHERE Clause]]
-- **Need temporary result sets?** → See [[CTE_Guide|CTEs]]
-- **Combining tables?** → See [[JOINS_Guide|JOINs]]
-- **Ranking or numbering rows?** → See [[Window_Functions_Guide|Window Functions]]
+- **Need to filter rows?** → See [[guides/01_SELECT_Complete_Guide#WHERE Clause|WHERE Clause]]
+- **Need temporary result sets?** → See [[guides/03_CTE_Guide|CTEs]]
+- **Combining tables?** → See [[guides/02_JOINS_Guide|JOINs]]
+- **Ranking or numbering rows?** → See [[guides/04_Window_Functions_Guide|Window Functions]]
 
 ---
 
@@ -117,24 +117,24 @@ This interconnected guide is designed to take you from complete beginner to prof
 
 #### 🚀 **"I Need Results Fast!"** (2-3 hours)
 Perfect if you have an urgent task:
-1. [[SELECT_Complete_Guide#Basic SELECT Syntax|Basic SELECT]] (30 min)
-2. [[SELECT_Complete_Guide#WHERE Clause|WHERE Filtering]] (30 min)
-3. [[JOINS_Guide#INNER JOIN|INNER JOIN]] (60 min)
-4. [[SELECT_Complete_Guide#Aggregation Functions|COUNT & SUM]] (30 min)
+1. [[guides/01_SELECT_Complete_Guide#Basic SELECT Syntax|Basic SELECT]] (30 min)
+2. [[guides/01_SELECT_Complete_Guide#WHERE Clause|WHERE Filtering]] (30 min)
+3. [[guides/02_JOINS_Guide#INNER JOIN|INNER JOIN]] (60 min)
+4. [[guides/01_SELECT_Complete_Guide#Aggregation Functions|COUNT & SUM]] (30 min)
 
 #### 📚 **"I Want to Master SQL"** (4-6 weeks)
 Comprehensive learning:
-1. Week 1: [[SELECT_Complete_Guide|SELECT Complete Guide]]
-2. Week 2: [[JOINS_Guide|SQL JOINs Masterclass]]
-3. Week 3-4: [[CTE_Guide|CTEs]] and [[Window_Functions_Guide|Window Functions]]
-4. Week 5-6: [[SQL_Best_Practices|Best Practices]] and practice projects
+1. Week 1: [[guides/01_SELECT_Complete_Guide|01. SELECT Complete Guide]]
+2. Week 2: [[guides/02_JOINS_Guide|02. SQL JOINs Masterclass]]
+3. Week 3-4: [[guides/03_CTE_Guide|03. CTEs]] and [[guides/04_Window_Functions_Guide|04. Window Functions]]
+4. Week 5-6: [[guides/05_SQL_Best_Practices|05. Best Practices]] and practice projects
 
 #### 💼 **"Interview Prep"** (1-2 weeks)
 Focus on commonly tested topics:
-1. [[JOINS_Guide|All JOIN Types]] - Know the differences!
-2. [[Window_Functions_Guide#Comparison ROW_NUMBER vs RANK vs DENSE_RANK|RANK vs ROW_NUMBER vs DENSE_RANK]]
-3. [[CTE_Guide#CTEs vs Subqueries vs Temp Tables|CTEs vs Subqueries]]
-4. [[SQL_Best_Practices#Performance Optimization|Optimization Techniques]]
+1. [[guides/02_JOINS_Guide|All JOIN Types]] - Know the differences!
+2. [[guides/04_Window_Functions_Guide#Comparison ROW_NUMBER vs RANK vs DENSE_RANK|RANK vs ROW_NUMBER vs DENSE_RANK]]
+3. [[guides/03_CTE_Guide#CTEs vs Subqueries vs Temp Tables|CTEs vs Subqueries]]
+4. [[guides/05_SQL_Best_Practices#Performance Optimization|Optimization Techniques]]
 
 ---
 
